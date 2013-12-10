@@ -3,12 +3,11 @@ Pod::Spec.new do |s|
   s.version      = '0.1.0'
   s.summary      = 'Use bitmap fonts generated from the bmGlyph app in SpriteKit'
   s.author = {
-    'Stéphane Queraud' => '???'
+    'Stéphane Queraud' => 'squeraud@gmail.com'
   }
   s.source = {
     :git => 'https://github.com/tapouillo/BMGlyphLabel.git',
-    # :git => 'https://github.com/xinsight/BMGlyphLabel.git',
-    # :tag => '0.1.0'
+    :tag => '0.1.0'
   }
   s.license      = {
     :type => '???',
@@ -17,6 +16,6 @@ Pod::Spec.new do |s|
   s.source_files = 'BMGlyphLabel/*.{h,m}'
   s.homepage = 'https://github.com/tapouillo/BMGlyphLabel'
   s.platform     = :ios, '7.0'
-  s.ios.frameworks = 'StoreKit'
+  s.ios.frameworks = 'SpriteKit'
   s.requires_arc = true
 end
